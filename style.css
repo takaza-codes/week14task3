@@ -1,0 +1,64 @@
+body {
+    margin: 0 4rem;
+    font-family: Tahoma, sans-serif;
+    font-size: 18px;
+    color: rgb(36, 36, 36);
+    background-image: linear-gradient(rgba(255, 233, 233, 0.4), rgba(255, 233, 233, 0.4)), url(/film.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: 50%;
+}
+
+h1, h2 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.films {
+    padding: 2rem 0;
+}
+
+.card {
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-areas: "h3 h3"
+    "p a";
+    border-bottom: 2px double rgb(49, 0, 0);
+}
+
+h3 {
+    grid-area: h3;
+}
+
+p {
+    margin: 0;
+    color:rgb(49, 0, 0);
+}
+
+a {
+    justify-self: right;
+    text-decoration: none;
+    cursor: pointer;
+    color:rgb(31, 13, 16);
+}
+
+a:visited {
+    text-decoration: underline;
+    color:rgb(252, 209, 146);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(201, 155, 5);
+}
+
+#filmList {
+    font-weight: 600;
+}
+
+footer {
+    padding-top: 2rem;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+}
